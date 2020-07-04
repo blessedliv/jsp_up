@@ -20,5 +20,20 @@
   		/WEB-INF/tlds/el-functions.tld
   		</taglib-location>
   	</taglib>
+  	
+  	
+  	
+  	<jsp-property-group>
+  		<url-pattern>/oldversion/*</url-pattern>
+  		<el-ignored>true</el-ignored>
+  	</jsp-property-group>
+  	
+  	<jsp-property-group>
+  		<url-pattern>/oldversion/*</url-pattern>
+  		<deferred-syntax-allowed-as-literal>true</deferred-syntax-allowed-as-literal>
+  	</jsp-property-group>
+  	
+  	
   </jsp-config>
+  
 </web-app>
