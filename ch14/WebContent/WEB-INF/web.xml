@@ -9,4 +9,11 @@ version="3.0">
   	<servlet-class>jdbc.MySQLDriverLoader</servlet-class>
   	<load-on-startup>1</load-on-startup>
   </servlet>
+  
+  
+  <servlet>
+  	<servlet-name>DBCPInit</servlet-name>
+  	<servlet-class>jdbc.DBCPInit</servlet-class>
+  	<load-on-startup>1</load-on-startup>
+  </servlet>
 </web-app>
